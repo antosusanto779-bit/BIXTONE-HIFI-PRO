@@ -1,0 +1,18 @@
+object SpeakerData {
+ data class Speaker(val type: String, val style: String, val inspiredBy: String, val desc: String)
+ val list = listOf(
+  Speaker("12 inch Active", "PAS Pro", "Inspired by Polytron Style", "Bass empuk 60Hz"),
+  Speaker("15 inch Horeg", "GMC Series", "Inspired by GMC Style", "Bass jedug 80Hz"),
+  Speaker("15 inch Line Array", "Huper Pro", "Style: Huper Pro", "Mid lantang"),
+  Speaker("Party Box", "Party Speaker", "Style: Party Speaker", "Bass + lampu"),
+  Speaker("Portable 8 inch", "Mini Aktif", "Style: Mini Aktif", "Buat warung"),
+  Speaker("Column Array", "Tower System", "Style: Tower System", "Buat masjid"),
+  Speaker("Subwoofer 18", "Sub Horeg", "Style: Sub Horeg", "Khusus low"),
+  Speaker("Monitor Studio", "Flat Reference", "Style: Flat Reference", "Buat mixing"),
+  Speaker("Bluetooth Speaker", "BT Portable", "Style: BT Portable", ""),
+  Speaker("Horn Speaker", "TOA Style", "Style: TOA Style", "Buat luar ruangan"),
+  Speaker("Custom 1", "Rakitan Boyolali 1", "Style: Rakitan Boyolali 1", ""),
+  Speaker("Custom 2", "Rakitan Boyolali 2", "Style: Rakitan Boyolali 2", "")
+ )
+ val presets = listOf("Dangdut Horeg","Hadroh Jernih","Karaoke Studio","Ngaji Masjid","Koplo","Sholawat")
+}
