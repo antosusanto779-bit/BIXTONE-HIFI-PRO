@@ -11,8 +11,8 @@ object SpeakerData {
   Speaker("Monitor Studio", "Flat Reference", "Style: Flat Reference", "Buat mixing"),
   Speaker("Bluetooth Speaker", "BT Portable", "Style: BT Portable", ""),
   Speaker("Horn Speaker", "TOA Style", "Style: TOA Style", "Buat luar ruangan"),
-  Speaker("Custom 1", "Rakitan Boyolali 1", "Style: Rakitan Boyolali 1", ""),
-  Speaker("Custom 2", "Rakitan Boyolali 2", "Style: Rakitan Boyolali 2", "")
+  Speaker("Custom 1", "Rakitan 1", "Style: Rakitan 1", ""),
+  Speaker("Custom 2", "Rakitan 2", "Style: Rakitan 2", "")
  )
  val presets = listOf("Dangdut Horeg","Hadroh Jernih","Karaoke Studio","Ngaji Masjid","Koplo","Sholawat")
 }
