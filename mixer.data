@@ -1,0 +1,13 @@
+object MixerData {
+ data class Mixer(val type: String, val style: String, val inspiredBy: String, val desc: String)
+ val list = listOf(
+  Mixer("Compact 4-Ch", "MG Series", "Style: MG Series", "Simple, buat musola"),
+  Mixer("Compact 10-Ch", "Xenyx Series", "Style: Xenyx Series", "Lengkap, ada FX"),
+  Mixer("Digital 16-Ch", "X32 Series", "Style: X32 Series", "Full digital, ada RTA"),
+  Mixer("Analog Warm", "Mackie Style", "Style: Mackie Style", "Suara hangat"),
+  Mixer("Broadcast", "Radio Console", "Style: Radio Console", "Buat podcast"),
+  Mixer("DJ Mixer", "Club Mix", "Style: Club Mix", "Buat DJ hajatan"),
+  Mixer("Line Mixer", "Keyboard Mix", "Style: Keyboard Mix", "Buat banyak keyboard"),
+  Mixer("Custom Mix", "Boyolali Custom", "Style: Boyolali Custom", "Settingan jenengan")
+ )
+}
