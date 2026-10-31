@@ -8,6 +8,6 @@ object MixerData {
   Mixer("Broadcast", "Radio Console", "Style: Radio Console", "Buat podcast"),
   Mixer("DJ Mixer", "Club Mix", "Style: Club Mix", "Buat DJ hajatan"),
   Mixer("Line Mixer", "Keyboard Mix", "Style: Keyboard Mix", "Buat banyak keyboard"),
-  Mixer("Custom Mix", "Boyolali Custom", "Style: Boyolali Custom", "Settingan jenengan")
+  Mixer("Custom Mix", "Custom", "Style")
  )
 }
